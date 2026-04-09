@@ -24,5 +24,26 @@ public class VariableApp {
         //5. Declare a variable with a nice message or saying
         String niceMessage = "You are a valuable person";
         System.out.println(niceMessage);
+
+        // Declare AND initialize variables for:
+        //1. The number of days in a week
+        int daysInWeek = 7;
+        //2. The price of coffee ($4.99)
+        float priceOfcoffee = 4.99f;
+        //3. Your favorite letter
+        char favLetter = 'A';
+        //4. Whether it's raining (true/false)
+        boolean isRaining = false;
+        //5. Print all values in complete sentences
+
+        System.out.println("There are " + daysInWeek + "days in a week");
+        System.out.println("A coffee is $" + priceOfcoffee + "!");
+        System.out.println("My favorite letter is " + favLetter + "!");
+        if (!isRaining) {
+            System.out.println("It is not raining.");}
+        else {
+            System.out.println("It's raining!");
+        }
+
     }
 }
